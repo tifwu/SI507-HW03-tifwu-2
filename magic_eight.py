@@ -11,9 +11,8 @@ def magic_eight():
 			print('I am sorry, I can only answer questions.')
 		else:
 			final_return = answerlist[randint(0, len(answerlist))]
-
-		print(final_return)
-		return final_return
+			print(final_return)
+			return final_return
 
 magic_eight()
 
